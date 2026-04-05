@@ -474,11 +474,11 @@ const products = [
         "barcode": "1445086097250"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Fragrances/dior-j'adore/1.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/dior-j'adore/2.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/dior-j'adore/3.webp`
+        `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/1.webp`,
+        `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/2.webp`,
+        `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/dior-j'adore/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/thumbnail.webp`
     },
     {
       "id": 9,
