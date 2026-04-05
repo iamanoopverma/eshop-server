@@ -7,11 +7,21 @@ node_modules/
 # logs
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# optional (agar use karo)
+# build files
 dist/
 build/
+
+# optional
+coverage/
+
+# editor files (important)
+.vscode/
+.idea/
