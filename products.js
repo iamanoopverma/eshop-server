@@ -1,6 +1,25 @@
 // products.js
 
-const BASE_URL = process.env.BASE_URL;
+const BASE_URL = process.env.BASE_URL; 
+const categories =[
+  {
+    Name : "Beauty",
+    Image: `${BASE_URL}/categories/beauty.webp` 
+  },
+  {
+    Name: "Fragrance",
+    Image: `${BASE_URL}/categories/fragrance.webp`
+  },
+  {
+    Name: "Furniture",
+    Image: `${BASE_URL}/categories/furniture.webp`
+  },
+  {
+    Name: "Groceries",
+    Image: `${BASE_URL}/categories/groceries.webp`
+  } 
+
+]
 const products = [
     {
       "id": 1,
@@ -57,9 +76,9 @@ const products = [
         "barcode": "5784719087687"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Beauty/Essence-Mascara-Lash-Princess/1.webp`
+        `${BASE_URL}/products-image/beauty/essence-mascara-lash-princess/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Beauty/Essence-Mascara-Lash-Princess/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/beauty/essence-mascara-lash-princess/thumbnail.webp`
     },
     {
       "id": 2,
@@ -116,9 +135,9 @@ const products = [
         "barcode": "9170275171413"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Beauty/Eyeshadow-Palette-With-Mirror/1.webp`
+        `${BASE_URL}/products-image/beauty/eyeshadow-palette-with-mirror/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Beauty/Eyeshadow-Palette-With-Mirror/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/beauty/eyeshadow-palette-with-mirror/thumbnail.webp`
     },
     {
       "id": 3,
@@ -175,9 +194,9 @@ const products = [
         "barcode": "8418883906837"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Beauty/Powder-Canister/1.webp`
+        `${BASE_URL}/products-image/beauty/powder-canister/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Beauty/Powder-Canister/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/beauty/powder-canister/thumbnail.webp`
     },
     {
       "id": 4,
@@ -234,9 +253,9 @@ const products = [
         "barcode": "9467746727219"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Beauty/Red-Lipstick/1.webp`
+        `${BASE_URL}/products-image/beauty/red-lipstick/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Beauty/Red-Lipstick/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/beauty/red-lipstick/thumbnail.webp`
     },
     {
       "id": 5,
@@ -293,9 +312,9 @@ const products = [
         "barcode": "4063010628104"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Beauty/Red-Nail-Polish/1.webp`
+        `${BASE_URL}/products-image/beauty/red-nail-polish/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Beauty/Red-Nail-Polish/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/beauty/red-nail-polish/thumbnail.webp`
     },
     {
       "id": 6,
@@ -352,11 +371,11 @@ const products = [
         "barcode": "2451534060749"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Fragrances/Calvin-Klein-CK-One/1.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Calvin-Klein-CK-One/2.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Calvin-Klein-CK-One/3.webp`
+        `${BASE_URL}/products-image/fragrances/calvin-klein-ck-one/1.webp`,
+        `${BASE_URL}/products-image/fragrances/calvin-klein-ck-one/2.webp`,
+        `${BASE_URL}/products-image/fragrances/calvin-klein-ck-one/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/Calvin-Klein-CK-One/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/fragrances/calvin-klein-ck-one/thumbnail.webp`
     },
     {
       "id": 7,
@@ -413,11 +432,11 @@ const products = [
         "barcode": "4091737746820"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Fragrances/Chanel-Coco-Noir-Eau-De/1.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Chanel-Coco-Noir-Eau-De/2.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Chanel-Coco-Noir-Eau-De/3.webp`
+        `${BASE_URL}/products-image/fragrances/chanel-coco-noir-eau-de/1.webp`,
+        `${BASE_URL}/products-image/fragrances/chanel-coco-noir-eau-de/2.webp`,
+        `${BASE_URL}/products-image/fragrances/chanel-coco-noir-eau-de/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/Chanel-Coco-Noir-Eau-De/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/fragrances/chanel-coco-noir-eau-de/thumbnail.webp`
     },
     {
       "id": 8,
@@ -474,11 +493,11 @@ const products = [
         "barcode": "1445086097250"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/1.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/2.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/3.webp`
+        `${BASE_URL}/products-image/fragrances/dior-j-adore/1.webp`,
+        `${BASE_URL}/products-image/fragrances/dior-j-adore/2.webp`,
+        `${BASE_URL}/products-image/fragrances/dior-j-adore/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/Dior-J-Adore/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/fragrances/dior-j-adore/thumbnail.webp`
     },
     {
       "id": 9,
@@ -535,11 +554,11 @@ const products = [
         "barcode": "3023868210708"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Fragrances/Dolce-Shine-Eau-De/1.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Dolce-Shine-Eau-De/2.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Dolce-Shine-Eau-De/3.webp`
+        `${BASE_URL}/products-image/fragrances/dolce-shine-eau-de/1.webp`,
+        `${BASE_URL}/products-image/fragrances/dolce-shine-eau-de/2.webp`,
+        `${BASE_URL}/products-image/fragrances/dolce-shine-eau-de/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/Dolce-Shine-Eau-De/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/fragrances/dolce-shine-eau-de/thumbnail.webp`
     },
     {
       "id": 10,
@@ -596,11 +615,11 @@ const products = [
         "barcode": "3170832177880"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Fragrances/Gucci-Bloom-Eau-De/1.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Gucci-Bloom-Eau-De/2.webp`,
-        `${BASE_URL}/Products-Image/Fragrances/Gucci-Bloom-Eau-De/3.webp`
+        `${BASE_URL}/products-image/fragrances/gucci-bloom-eau-de/1.webp`,
+        `${BASE_URL}/products-image/fragrances/gucci-bloom-eau-de/2.webp`,
+        `${BASE_URL}/products-image/fragrances/gucci-bloom-eau-de/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Fragrances/Gucci-Bloom-Eau-De/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/fragrances/gucci-bloom-eau-de/thumbnail.webp`
     },
     {
       "id": 11,
@@ -657,11 +676,11 @@ const products = [
         "barcode": "3610757456581"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Bed/1.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Bed/2.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Bed/3.webp`
+        `${BASE_URL}/products-image/furnitures/annibale-colombo-bed/1.webp`,
+        `${BASE_URL}/products-image/furnitures/annibale-colombo-bed/2.webp`,
+        `${BASE_URL}/products-image/furnitures/annibale-colombo-bed/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Bed/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/furnitures/annibale-colombo-bed/thumbnail.webp`
     },
     {
       "id": 12,
@@ -718,11 +737,11 @@ const products = [
         "barcode": "1777662847736"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Sofa/1.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Sofa/2.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Sofa/3.webp`
+        `${BASE_URL}/products-image/furnitures/annibale-colombo-sofa/1.webp`,
+        `${BASE_URL}/products-image/furnitures/annibale-colombo-sofa/2.webp`,
+        `${BASE_URL}/products-image/furnitures/annibale-colombo-sofa/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Furnitures/Annibale-Colombo-Sofa/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/furnitures/annibale-colombo-sofa/thumbnail.webp`
     },
     {
       "id": 13,
@@ -779,11 +798,11 @@ const products = [
         "barcode": "6441287925979"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Furnitures/Bedside-Table-African-Cherry/1.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Bedside-Table-African-Cherry/2.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Bedside-Table-African-Cherry/3.webp`
+        `${BASE_URL}/products-image/furnitures/bedside-table-african-cherry/1.webp`,
+        `${BASE_URL}/products-image/furnitures/bedside-table-african-cherry/2.webp`,
+        `${BASE_URL}/products-image/furnitures/bedside-table-african-cherry/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Furnitures/Bedside-Table-African-Cherry/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/furnitures/bedside-table-african-cherry/thumbnail.webp`
     },
     {
       "id": 14,
@@ -840,11 +859,11 @@ const products = [
         "barcode": "8919386859966"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Furnitures/Knoll-Saarinen-Executive-Conference-Chair/1.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Knoll-Saarinen-Executive-Conference-Chair/2.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Knoll-Saarinen-Executive-Conference-Chair/3.webp`
+        `${BASE_URL}/products-image/furnitures/knoll-saarinen-executive-conference-chair/1.webp`,
+        `${BASE_URL}/products-image/furnitures/knoll-saarinen-executive-conference-chair/2.webp`,
+        `${BASE_URL}/products-image/furnitures/knoll-saarinen-executive-conference-chair/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Furnitures/Knoll-Saarinen-Executive-Conference-Chair/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/furnitures/knoll-saarinen-executive-conference-chair/thumbnail.webp`
     },
     {
       "id": 15,
@@ -901,11 +920,11 @@ const products = [
         "barcode": "1958104402873"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Furnitures/Wooden-Bathroom-Sink-With-Mirror/1.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Wooden-Bathroom-Sink-With-Mirror/2.webp`,
-        `${BASE_URL}/Products-Image/Furnitures/Wooden-Bathroom-Sink-With-Mirror/3.webp`
+        `${BASE_URL}/products-image/furnitures/wooden-bathroom-sink-with-mirror/1.webp`,
+        `${BASE_URL}/products-image/furnitures/wooden-bathroom-sink-with-mirror/2.webp`,
+        `${BASE_URL}/products-image/furnitures/wooden-bathroom-sink-with-mirror/3.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Furnitures/Wooden-Bathroom-Sink-With-Mirror/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/furnitures/wooden-bathroom-sink-with-mirror/thumbnail.webp`
     },
     {
       "id": 16,
@@ -960,9 +979,9 @@ const products = [
         "barcode": "7962803553314"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Apple/1.webp`
+        `${BASE_URL}/products-image/groceries/apple/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Apple/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/apple/thumbnail.webp`
     },
     {
       "id": 17,
@@ -1017,9 +1036,9 @@ const products = [
         "barcode": "5640063409695"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Beef-Steak/1.webp`
+        `${BASE_URL}/products-image/groceries/beef-steak/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Beef-Steak/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/beef-steak/thumbnail.webp`
     },
     {
       "id": 18,
@@ -1075,9 +1094,9 @@ const products = [
         "barcode": "1483991328610"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Cat-Food/1.webp`
+        `${BASE_URL}/products-image/groceries/cat-food/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Cat-Food/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/cat-food/thumbnail.webp`
     },
     {
       "id": 19,
@@ -1132,10 +1151,10 @@ const products = [
         "barcode": "8829514594521"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Chicken-Meat/1.webp`,
-        `${BASE_URL}/Products-Image/Groceries/Chicken-Meat/2.webp`
+        `${BASE_URL}/products-image/groceries/chicken-meat/1.webp`,
+        `${BASE_URL}/products-image/groceries/chicken-meat/2.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Chicken-Meat/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/chicken-meat/thumbnail.webp`
     },
     {
       "id": 20,
@@ -1190,9 +1209,9 @@ const products = [
         "barcode": "4874727824518"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Cooking-Oil/1.webp`
+        `${BASE_URL}/products-image/groceries/cooking-oil/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Cooking-Oil/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/cooking-oil/thumbnail.webp`
     },
     {
       "id": 21,
@@ -1247,9 +1266,9 @@ const products = [
         "barcode": "5300066378225"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Cucumber/1.webp`
+        `${BASE_URL}/products-image/groceries/cucumber/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Cucumber/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/cucumber/thumbnail.webp`
     },
     {
       "id": 22,
@@ -1305,9 +1324,9 @@ const products = [
         "barcode": "5906686116469"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Dog-Food/1.webp`
+        `${BASE_URL}/products-image/groceries/dog-food/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Dog-Food/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/dog-food/thumbnail.webp`
     },
     {
       "id": 23,
@@ -1362,9 +1381,9 @@ const products = [
         "barcode": "3478638588469"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Eggs/1.webp`
+        `${BASE_URL}/products-image/groceries/eggs/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Eggs/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/eggs/thumbnail.webp`
     },
     {
       "id": 24,
@@ -1419,9 +1438,9 @@ const products = [
         "barcode": "9595036192098"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Fish-Steak/1.webp`
+        `${BASE_URL}/products-image/groceries/fish-steak/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Fish-Steak/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/fish-steak/thumbnail.webp`
     },
     {
       "id": 25,
@@ -1476,9 +1495,9 @@ const products = [
         "barcode": "2365227493323"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Green-Bell-Pepper/1.webp`
+        `${BASE_URL}/products-image/groceries/green-bell-pepper/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Green-Bell-Pepper/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/green-bell-pepper/thumbnail.webp`
     },
     {
       "id": 26,
@@ -1533,9 +1552,9 @@ const products = [
         "barcode": "9335000538563"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Green-Chili-Pepper/1.webp`
+        `${BASE_URL}/products-image/groceries/green-chili-pepper/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Green-Chili-Pepper/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/green-chili-pepper/thumbnail.webp`
     },
     {
       "id": 27,
@@ -1590,9 +1609,9 @@ const products = [
         "barcode": "6354306346329"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Honey-Jar/1.webp`
+        `${BASE_URL}/products-image/groceries/honey-jar/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Honey-Jar/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/honey-jar/thumbnail.webp`
     },
     {
       "id": 28,
@@ -1647,12 +1666,12 @@ const products = [
         "barcode": "0788954559076"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Ice-Cream/1.webp`,
-        `${BASE_URL}/Products-Image/Groceries/Ice-Cream/2.webp`,
-        `${BASE_URL}/Products-Image/Groceries/Ice-Cream/3.webp`,
-        `${BASE_URL}/Products-Image/Groceries/Ice-Cream/4.webp`
+        `${BASE_URL}/products-image/groceries/ice-cream/1.webp`,
+        `${BASE_URL}/products-image/groceries/ice-cream/2.webp`,
+        `${BASE_URL}/products-image/groceries/ice-cream/3.webp`,
+        `${BASE_URL}/products-image/groceries/ice-cream/4.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Ice-Cream/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/ice-cream/thumbnail.webp`
     },
     {
       "id": 29,
@@ -1707,9 +1726,9 @@ const products = [
         "barcode": "6936112580956"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Juice/1.webp`
+        `${BASE_URL}/products-image/groceries/juice/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Juice/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/juice/thumbnail.webp`
     },
     {
       "id": 30,
@@ -1764,10 +1783,13 @@ const products = [
         "barcode": "2530169917252"
       },
       "images": [
-        `${BASE_URL}/Products-Image/Groceries/Kiwi/1.webp`
+        `${BASE_URL}/products-image/groceries/kiwi/1.webp`
       ],
-      "thumbnail": `${BASE_URL}/Products-Image/Groceries/Kiwi/thumbnail.webp`
+      "thumbnail": `${BASE_URL}/products-image/groceries/kiwi/thumbnail.webp`
     }
 ];
 
-module.exports = products;
+module.exports = {
+  products,
+  categories
+};
