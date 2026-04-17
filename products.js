@@ -10,12 +10,12 @@ const categories =[
   {
     id: 2,
     Name: "Fragrance",
-    Image: `${BASE_URL}/products-image/categories/fragrance.webp`
+    Image: `${BASE_URL}/products-image/categories/fragrances.webp`
   },
   {
     id: 3,
     Name: "Furniture",
-    Image: `${BASE_URL}/products-image/categories/furniture.webp`
+    Image: `${BASE_URL}/products-image/categories/furnitures.webp`
   },
   {
     id: 4,
