@@ -3,20 +3,24 @@
 const BASE_URL = process.env.BASE_URL; 
 const categories =[
   {
+    id: 1,
     Name : "Beauty",
-    Image: `${BASE_URL}/categories/beauty.webp` 
+    Image: `${BASE_URL}/products-image/categories/beauty.webp` 
   },
   {
+    id: 2,
     Name: "Fragrance",
-    Image: `${BASE_URL}/categories/fragrance.webp`
+    Image: `${BASE_URL}/products-image/categories/fragrance.webp`
   },
   {
+    id: 3,
     Name: "Furniture",
-    Image: `${BASE_URL}/categories/furniture.webp`
+    Image: `${BASE_URL}/products-image/categories/furniture.webp`
   },
   {
+    id: 4,
     Name: "Groceries",
-    Image: `${BASE_URL}/categories/groceries.webp`
+    Image: `${BASE_URL}/products-image/categories/groceries.webp`
   } 
 
 ]
